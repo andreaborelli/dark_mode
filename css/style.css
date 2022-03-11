@@ -1,0 +1,61 @@
+// © Andrea Borelli | all rights reserved
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   border-radius: 7px;
+   font-family: "Verdana", Sans-serif;
+   margin-bottom: 5px;
+   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  text-decoration: underline;
+}
+.theme {
+ background-color: #fff;
+ height: 600px;
+}
+.options {
+ height: 70px;
+ background-color: #ddd;
+}
+button {
+ border: none;
+ border-radius: 5px;
+ font-size: 17px;
+ height: 40px;
+ width: 70px;
+ margin: 15px 5px 5px 0;
+ cursor: pointer;
+}
+.dark {
+ background-color: #000;
+ color: #fff;
+}
+.light {
+ background-color: #fff;
+ color: #000;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background: #fff;
+  padding: 20px;
+}
+@media (max-width: 680px) {
+ footer p {
+   padding: 20px;
+   text-align: center;
+   font-size: 1em;
+  }
+}
